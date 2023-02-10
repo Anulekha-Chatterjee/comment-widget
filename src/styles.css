@@ -1,0 +1,89 @@
+.App {
+  padding: 20px;
+}
+.comments-header {
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.comment-text-box {
+  height: 40px;
+  width: 408px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.comment-text-box:focus {
+  outline: none !important;
+  border-color: #1775d2;
+}
+.add-comment-btn {
+  font-size: 10px;
+  background-color: #1775d2;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  position: relative;
+  bottom: 8px;
+}
+
+.account-icon {
+  position: relative;
+  bottom: 10px;
+  height: 60px !important;
+  width: 60px !important;
+}
+.comments-container {
+  padding: 20px;
+}
+.each-parent-comment {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.each-comment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-btn {
+  height: 20px;
+  margin-right: 4px;
+  margin-left: 4px;
+  font-size: 9px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 4px;
+  background: transparent;
+}
+.reply-btn {
+  height: 20px;
+  margin-right: 4px;
+  margin-left: 4px;
+  font-size: 9px;
+  border: 1px solid #1775d2;
+  color: #1775d2;
+  border-radius: 4px;
+  background: transparent;
+}
+.reply-container {
+  padding: 5px;
+}
+.each-child-comment {
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+}
+.nested-reply-btn {
+  margin-left: 5px;
+  font-size: 8px;
+  color: #1775d2;
+  border: 1px solid #1775d2;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.user-name {
+  color: #1775d2;
+}
